@@ -1,0 +1,12 @@
+.moonrakerbody{
+    background-color:blue;
+    background-image: url(AboutMe.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lauren-img{
+    height:30em;
+}

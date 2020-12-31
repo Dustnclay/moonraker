@@ -25,9 +25,7 @@ const Header = () => {
 
     return(
         <div class="header">
-            <div class="insideHeader">
-                <img class="img" src="Moonraker-horizontal.jpeg" alt="moonraker logo"/>               
-            </div>
+            <img class="img" src="Moonraker-horizontal.jpeg" alt="moonraker logo"/>               
             <Nav class="nav">
                 <button class='button' onClick={toMoonraker}>
                     Home
@@ -42,6 +40,7 @@ const Header = () => {
                     About me
                 </button>                
             </Nav>
+            <img  class="wedding-img" src="hugo-kerr-Ke96snCJ1m0-unsplash.jpg" alt="wedding photo"/>
         </div>
 
     )
