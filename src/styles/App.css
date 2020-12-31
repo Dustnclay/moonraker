@@ -1,5 +1,32 @@
+/* p{
+  padding-left:6%;
+  padding-right:6%;
+} */
+
 .App {
   text-align: center;
+
+}
+
+.page {
+  /* text-align: center; */
+  /* margin:4% */
+  /* border-bottom:10px solid #d5c398; */
+  /* margin-left: 4% */
+}
+
+
+
+.about {
+
+}
+.title{
+  text-align: center;
+  margin-top: 4%;
+  /* margin:4%; */
+  padding-top: 4%;
+  border-top:4px solid #d5c398;
+
 }
 
 .App-logo {

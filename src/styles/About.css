@@ -1,0 +1,36 @@
+.body{
+    /* background-color:pink; */
+    /* text-align: center; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2 em;
+    /* text-align: center;
+    margin:4%;
+    margin-top: 4%; */
+}
+
+.right-half{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.list_p{
+    padding-left:1.2em
+}
+button{
+    padding:.5em 3em .5em 3em;
+    /* width:5em; */
+    /* justify-content: center;
+    align-items: center; */
+    border-top:0 ;
+    border-right:.2em black solid;    
+    border-left:0 ;
+    border-bottom:.2em black solid;
+
+}
+
+

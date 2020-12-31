@@ -1,11 +1,11 @@
+import React from 'react';
+import "../styles/Footer.css"
 
 const Footer = () => {
     return(
-        <>
-            <h1>
-                FOOTER
-            </h1>
-        </>
+        <div class="footer">
+            <img class="footerImage" src="moonraker-text-under.jpeg" alt="logo"/>
+        </div>
     )
 }
 
