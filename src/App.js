@@ -20,8 +20,8 @@ function App() {
           <About/>
           {/* <Route path='/Merchandise' component={Moonraker}/> */}
           <Moonraker/>
-          {/* <Route path='/Contact' component={Contact}/> */}
-          <Contact/>          
+          <Route exact path='/Contact' component={Contact}/>
+          {/* <Contact/>           */}
           {/* <Route exact path='/' component={Examples}/> */}
           <Examples/>
         </div>
