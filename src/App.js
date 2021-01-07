@@ -4,9 +4,9 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer';
 import Examples from './components/Examples'
-import About from './components/About'
+import About from './components/Capturing'
 import Contact from './components/Contact'
-import Moonraker from './components/Moonraker'
+import AboutMe from './components/AboutMe'
 
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
           {/* <Route path='/About' component={About}/> */}
           <About/>
           {/* <Route path='/Merchandise' component={Moonraker}/> */}
-          <Moonraker/>
-          <Route exact path='/Contact' component={Contact}/>
+          <AboutMe/>
+          <Route path='/Contact' component={Contact}/>
           {/* <Contact/>           */}
           {/* <Route exact path='/' component={Examples}/> */}
           <Examples/>

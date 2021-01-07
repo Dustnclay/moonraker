@@ -1,12 +1,12 @@
 import React from 'react';
-import "../styles/About.css"
+import "../styles/Capturing.css"
 
 
 const About = () => {
     return(
         <div class="body">
             
-            <img src="MMC_icon.png" alt="capturing lifes moments"/>
+            <img src="Meaningful-Moments.png" alt="capturing lifes moments"/>
             
             <div class="right-half">
                 <div class="right-upper">
