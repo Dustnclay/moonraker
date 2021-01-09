@@ -1,38 +1,54 @@
-/* body {
-    
-  } */
+
 
 .header {
     display: flex;
-    /* height:20em; */
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    /* justify-content: space-around; */
     padding-top: 1em;
     padding-bottom: 5em;
-    /* background-image: url("hugo-kerr-Ke96snCJ1m0-unsplash.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-color:#231F20; */
     background-color:black;
-    
 }
-/* .insideHeader {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-} */
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+  }
 
 .text{
     color:white;
 }
 .img{
     height:13em;
-    /* width:375px; */
+
 }
 
 .wedding-img{
@@ -41,39 +57,16 @@
 }
 .nav {
     width:60%;
-    /* background-color: pink ; */
     display:flex;
-    /* flex-direction: column; */
     font-size: 1.5em;
-    /* align-items: space-around; */
     justify-content:space-around;
-    /* padding-left:15%; */
-    /* padding-right: 15%; */
-    /* padding-left:5em;
-    padding-right:5em; */
     padding-bottom: 1em;
-    /* justify-content: space-between;  */
 }
 
 .button {
-    /* justify-content:space-around; */
-    /* display: inline; */
     border: none;
-    /* padding: 0;
-    margin: 0; */
     color:white;
     padding:0;
     text-decoration: none;
     background:transparent;
-    /* background: #231F20; */
-    /* color: #ffffff;
-    font-family: sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none; */
-
 }
